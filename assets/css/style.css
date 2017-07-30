@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css?family=Spectral|Roboto:400,600,800|Alex+Brush');
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	background-color: #000000;
+}
+
+/*-------------------------------------------------------------------------------------*/
+/* Navbar & Menu
+/*-------------------------------------------------------------------------------------*/
+
+.navbar {
+	position: relative;
+  	min-height: 70px;
+    background-color: snow;
+    border-bottom: 1px solid #cccccc;
+    width: auto;
+    overflow: auto;
+}
+
+.header {
+	padding: 20px;
+	font-family: Alex Brush;
+	font-size: 48px;
+	font-weight: 600;
+	letter-spacing: .015em;
+	background-color: #0077b5;
+	color: white;
+	text-align: center;
+	float: left;
+	margin-left: 12%;
+}
+
+.header:hover {
+	background-color: #000000;
+}
+
+#menu {
+	float: right;
+	margin-right: 60px;
+}
+	
+ul {
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    display: inline-block;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: #283e4a;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+}
+
+li a:hover {
+    font-size: 18px;
+    color: #0077b5;
+    font-weight: 800;
+}
+
+/*-------------------------------------------------------------------------------------*/
+/* Main Stage
+/*-------------------------------------------------------------------------------------*/
+
+.container-main {
+  	position: relative;
+  	margin-right: auto;
+  	margin-left: auto;
+  	max-width: 960px;
+  	margin-top: 0;
+  	background-image: url("../images/background-light-blue.jpg");
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+#h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 36px;
+	font-weight: 600;
+	padding: 0px 0px 30px 0px;
+}
+
+#h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 21px;
+	font-weight: 600;
+	letter-spacing: -.03em;
+	padding: 10px 0px 10px 0px;
+	color: #0077b5;
+}
+
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 1.45em;
+	color: #283e4a;
+	padding: 10px;
+}
+
+#div-3 img {
+	padding: 20px;
+	float: left;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+}
+
+.divimage-container {
+	/*display: inline-block;*/
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: auto;
+	padding: 20px;
+}
+
+.divimage-container img {
+	/*display: inline-block;*/
+	opacity: .5;
+	border: 4px solid #000000;
+}
+
+.divimage-container:hover img {
+	opacity: 1.0;
+	border: 4px solid #000000;
+}
+
+.divimage-overlay {
+	padding: 15px;
+	background-color: #0077b5;
+	border-top: 3px solid #000000;
+	border-bottom: 3px solid #000000;
+	color: snow;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 16px;
+	text-align: center;
+	position: relative;
+	top:-140px;
+}
+
+.divimage-overlay:hover {
+	background-color: #ffffff;
+	color: #0077b5;
+}
+
+/*-------------------------------------------------------------------------------------*/
+/* Connect With Me */
+/*-------------------------------------------------------------------------------------*/
+
+#connectPanel {
+	background-color: snow;
+	padding: 30px;
+	width: 37%;
+	border-radius: 14px;
+	border-radius: 14px;
+	border: 1px solid #cccccc;
+	float: right; margin-bottom: 30px;
+}
+
+#icon-left {
+	float: left;
+	height: 48px;
+	width: 48px;
+	background-image: url("../images/github.png");
+	background-size: 48px 48px;
+}
+
+#icon-left:hover {
+	height: 55px;
+	width: 55px;
+	background-size: 55px 55px;
+}
+
+#icon-center {
+	margin: 0 auto;
+	height: 48px;
+	width: 48px;
+	background-image: url("../images/LinkedIn_logo_initials.png");
+	background-size: 48px 48px;
+	position: relative;
+	top: 0;
+}
+
+#icon-center:hover {
+	height: 55px;
+	width: 55px;
+	background-size: 55px 55px;
+}
+
+#icon-right {
+	float: right;
+	height: 48px;
+	width: 48px;
+	background-image: url("../images/stackoverflow-6-xxl.png");
+	background-size: 48px 48px;
+}
+
+#icon-right:hover {
+	height: 55px;
+	width: 55px;
+	background-size: 55px 55px;
+}
+
+/*-------------------------------------------------------------------------------------*/
+/* Footer */
+/*-------------------------------------------------------------------------------------*/
+
+.footer-1 {
+	overflow: hidden;
+	padding: 30px;
+	background: #283e4a;
+	color: white;
+	text-align: center;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 12px;
+	border-top: 10px solid #0077b5;
+	width: 100%;
+	position: relative;
+	bottom: 0;
+}
+
+/*-------------------------------------------------------------------------------------*/
+/* Contact Form */
+/*-------------------------------------------------------------------------------------*/
+
+text {
+	width: 100%;
+	padding: 0;
+}
+
+form input, textarea {
+	width: 100%;
+}
+
+.heighttext {
+ height: 30px;
+ }
+
+.formtext {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 2.65em;
+	font-size: 17px;
+	letter-spacing: .015em;
+	color: #283e4a;
+}
+
+input::-webkit-input-placeholder {
+  color: rgb(211,211,211)
+}
+
+textarea::-webkit-input-placeholder {
+  color: rgb(211,211,211)
+}
+
+#button {
+	display: inline-block;
+	background-color: #0077b5;
+	color: white;
+	font-size: 14px;
+	font-weight: 600;
+	text-align: center;
+	width: 80px !important;
+	height: 40px !important;
+	border: 0;
+}
+
+#button:hover {
+	background-color: #283e4a;
+}
+
+/*-------------------------------------------------------------------------------------*/
+/* Media Queries 980 */
+/*-------------------------------------------------------------------------------------*/
+
+@media (max-width: 980px) {
+  		
+/*-------------------------------------------------------------------------------------*/
+/* Media Queries 768 */
+/*-------------------------------------------------------------------------------------*/
+
+@media (max-width: 768px) {
+  		 		
+		.divimage-container {
+			float: left;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+			height: auto;
+			}
+
+  		.col-9 {
+
+  			width: 97%;
+  		}
+
+  		.col-7 {
+  			width: 100%;
+  		}
+
+  		#div-3 {
+  			width: 60%;
+  		}
+
+  		.col-4 {
+  			width: 100%;
+  		}
+
+  		#menu {
+			width: 100%;
+			padding: 0;
+			margin-right: auto;
+			margin-left: auto;
+		}
+
+  		.header {
+  			margin-left: 2%;
+  			/*font-size: 36px;*/
+  		}
+
+		#logos {
+			width: 40%;
+		}
+
+		#connectPanel {
+			width: 100%;
+		}
+
+/*-------------------------------------------------------------------------------------*/
+/* Media Queries 640 */
+/*-------------------------------------------------------------------------------------*/
+
+  @media (max-width: 640px) {
+  		
+		.divimage-container {
+			float: left;
+			margin-left: auto;
+			margin-right: auto;
+			width: 100%;
+			height: auto;
+		}
+
+  		.col-7 {
+  			width: 100%;
+  		}
+
+  		#div-3 {
+  			width: 100%;
+  		}
+
+  		.col-4 {
+  			width: 100%;
+  		}
+
+  		.header {
+  			width: 100%;
+  			margin-left: 0%;
+  		}
+
+  		#menu {
+			width: 100%;
+			padding: 0;
+		}
+
+		#logos {
+			width: 60%;
+		}
+
+		#connectPanel {
+			width: 100%;
+
+		}
